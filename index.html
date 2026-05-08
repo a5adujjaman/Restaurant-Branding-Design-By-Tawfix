@@ -3,142 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tawfix BPO & IT Solution | Branding Portfolio</title>
+    <title>Tawfix | Restaurant Branding Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.0/simple-lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .hero-gradient { background: linear-gradient(135deg, #6366f1 0%, #f43f5e 100%); }
+        .hero-gradient { background: linear-gradient(135deg, #4f46e5 0%, #e11d48 100%); }
         .card-zoom:hover img { transform: scale(1.1); }
-        .card-zoom img { transition: transform 0.5s ease; }
+        .card-zoom img { transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
+        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans">
+<body class="bg-slate-50 text-slate-900">
 
     <!-- Hero Section -->
-    <section class="hero-gradient text-white py-20 px-6">
-        <div class="max-w-6xl mx-auto text-center">
-            <h1 class="text-5xl md:text-7xl font-black mb-4 tracking-tight">Tawfix BPO & IT Solution</h1>
-            <p class="text-xl md:text-2xl font-light opacity-90 max-w-3xl mx-auto">
-                Transforming brands through Creative Branding, Web Development, and Digital Growth.
-            </p>
-            <div class="mt-8 flex flex-wrap justify-center gap-4">
-                <a href="https://facebook.com/tawfix.official" target="_blank" class="bg-white text-rose-500 px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all"><i class="fab fa-facebook mr-2"></i> Facebook</a>
-                <a href="https://www.linkedin.com/company/tawfix" target="_blank" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all"><i class="fab fa-linkedin mr-2"></i> LinkedIn</a>
-                <a href="https://youtube.com/@tawfix.official" target="_blank" class="bg-white text-red-600 px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all"><i class="fab fa-youtube mr-2"></i> YouTube</a>
+    <header class="hero-gradient text-white py-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tighter">TAWFIX</h1>
+            <p class="text-xl md:text-2xl font-light opacity-90">BPO & IT Solution | Branding | Digital Growth</p>
+            <div class="mt-10 flex flex-wrap justify-center gap-6">
+                <a href="https://facebook.com/tawfix.official" target="_blank" class="bg-white text-rose-600 px-8 py-3 rounded-full font-bold shadow-xl hover:scale-105 transition-transform"><i class="fab fa-facebook mr-2"></i> Facebook</a>
+                <a href="https://www.linkedin.com/company/tawfix" target="_blank" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-bold shadow-xl hover:scale-105 transition-transform"><i class="fab fa-linkedin mr-2"></i> LinkedIn</a>
+                <a href="https://youtube.com/@tawfix.official" target="_blank" class="bg-white text-red-600 px-8 py-3 rounded-full font-bold shadow-xl hover:scale-105 transition-transform"><i class="fab fa-youtube mr-2"></i> YouTube</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Company Details -->
+    <section class="max-w-6xl mx-auto -mt-12 px-6 relative z-10">
+        <div class="glass-card rounded-[2.5rem] shadow-2xl p-10 border border-white/20">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-indigo-950 mb-4">Partnering for Success</h2>
+                    <p class="text-slate-600 leading-relaxed text-lg">
+                        We are committed to delivering high-quality digital solutions that help businesses grow, scale, and succeed. We build long-term partnerships with both local and international clients across different industries.
+                    </p>
+                    <div class="mt-8 p-6 bg-amber-50 rounded-2xl border border-amber-100">
+                        <h3 class="text-amber-700 font-serif italic text-xl mb-2">"The Clove’s: eSSence of spice"</h3>
+                        <p class="text-slate-600">Why take our support? Because customers eat with their eyes first. We create the visual "spice" that drives sales.</p>
+                    </div>
+                </div>
+                <div class="bg-indigo-950 text-white p-8 rounded-3xl">
+                    <h3 class="text-2xl font-bold mb-6">Our Expertise</h3>
+                    <ul class="space-y-3 opacity-90">
+                        <li><i class="fas fa-check-circle text-rose-400 mr-2"></i> Creative Branding & Design</li>
+                        <li><i class="fas fa-check-circle text-rose-400 mr-2"></i> Digital Growth Marketing</li>
+                        <li><i class="fas fa-check-circle text-rose-400 mr-2"></i> Web & App Development</li>
+                        <li><i class="fas fa-check-circle text-rose-400 mr-2"></i> Business Systems (POS/ERP)</li>
+                        <li><i class="fas fa-check-circle text-rose-400 mr-2"></i> Website Security & Optimization</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Company Overview -->
-    <section class="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-2 gap-12 items-center">
-        <div>
-            <h2 class="text-3xl font-bold text-indigo-900 mb-6">Partnering for Success</h2>
-            <p class="text-lg text-slate-600 leading-relaxed">
-                At Tawfix, we are committed to delivering high-quality digital solutions that help businesses grow, scale, and succeed. We build long-term partnerships with both local and international clients across different industries.
-            </p>
-            <div class="mt-8 grid grid-cols-2 gap-4">
-                <div class="p-5 bg-white rounded-2xl shadow-sm border-l-4 border-rose-500">
-                    <h4 class="font-bold text-lg text-rose-600">International</h4>
-                    <p class="text-sm text-slate-500 uppercase tracking-tighter">Global Standards</p>
-                </div>
-                <div class="p-5 bg-white rounded-2xl shadow-sm border-l-4 border-indigo-500">
-                    <h4 class="font-bold text-lg text-indigo-600">Local Clients</h4>
-                    <p class="text-sm text-slate-500 uppercase tracking-tighter">Dhaka & Beyond</p>
-                </div>
-            </div>
+    <!-- Branding Portfolio Grid -->
+    <section class="max-w-7xl mx-auto py-24 px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+            <h2 class="text-4xl font-black text-slate-900 tracking-tight uppercase">Featured Branding</h2>
+            <p class="text-rose-500 font-bold mt-2 md:mt-0">8 Premier Restaurant Designs</p>
         </div>
-        <div class="bg-indigo-900 text-white p-10 rounded-[2rem] shadow-2xl relative overflow-hidden">
-            <h3 class="text-2xl font-bold mb-6 relative z-10">What can we do for you?</h3>
-            <ul class="space-y-4 relative z-10">
-                <li class="flex items-center"><i class="fas fa-check-circle text-rose-400 mr-3"></i> Creative Branding & Design</li>
-                <li class="flex items-center"><i class="fas fa-check-circle text-rose-400 mr-3"></i> Digital Growth Marketing</li>
-                <li class="flex items-center"><i class="fas fa-check-circle text-rose-400 mr-3"></i> Web & App Development</li>
-                <li class="flex items-center"><i class="fas fa-check-circle text-rose-400 mr-3"></i> Business Systems (POS/ERP)</li>
-                <li class="flex items-center"><i class="fas fa-check-circle text-rose-400 mr-3"></i> Website Security & Optimization</li>
-            </ul>
-        </div>
-    </section>
 
-    <!-- Restaurant Specific Section -->
-    <section class="bg-amber-50 py-16 px-6 border-y border-amber-100">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold text-amber-900 mb-4">Why Restaurants Choose Us?</h2>
-            <p class="text-xl text-amber-600 font-serif mb-8 italic">"The Clove’s: eSSence of spice"</p>
-            <p class="text-slate-700 text-lg leading-relaxed mb-6">
-                In the food industry, customers eat with their eyes first. Our restaurant branding ensures your menu is not just a list of items, but a visual journey. We specialize in creating high-conversion flyers and menus that highlight your **essence of spice**, helping you stand out in competitive markets.
-            </p>
-        </div>
-    </section>
-
-    <!-- Featured Portfolio (8 Big Cards) -->
-    <section class="max-w-7xl mx-auto py-20 px-6">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-black text-slate-900 uppercase">Featured Projects</h2>
-            <div class="h-1 w-20 bg-rose-500 mx-auto mt-4"></div>
-        </div>
-        
-        <!-- 2 Rows of 4 Cards -->
         <div id="portfolio-grid" class="gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- JavaScript will load exactly 8 images here -->
+            <!-- JavaScript will auto-load 1.jpg through 8.jpg here -->
         </div>
 
         <!-- View More Button -->
-        <div class="text-center mt-16">
-            <a href="#" class="inline-block bg-indigo-600 text-white px-12 py-4 rounded-full font-bold text-lg shadow-xl hover:bg-indigo-700 hover:-translate-y-1 transition-all">
-                View Full Portfolio <i class="fas fa-arrow-right ml-2"></i>
+        <div class="text-center mt-20">
+            <a href="https://facebook.com/tawfix.official" target="_blank" class="inline-flex items-center gap-3 bg-slate-900 text-white px-12 py-5 rounded-full font-black text-lg shadow-2xl hover:bg-rose-600 transition-all">
+                VIEW FULL PORTFOLIO <i class="fas fa-arrow-right"></i>
             </a>
         </div>
     </section>
 
-    <!-- Contact Footer -->
-    <footer class="bg-slate-900 text-white pt-20 pb-10 px-6">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 border-b border-slate-800 pb-12">
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 pt-20 pb-10 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 text-slate-600">
             <div>
-                <h4 class="text-xl font-bold mb-4">Md. Asadujjaman Asif</h4>
-                <p class="text-slate-400">Founder & Director</p>
-                <p class="text-slate-400 mt-2">Ga-64, Bepari Shopping Complex,<br>Middle Badda, Gulshan, Dhaka-1212</p>
+                <h4 class="font-black text-slate-900 text-xl mb-4">Md. Asadujjaman Asif</h4>
+                <p>Founder & Director</p>
+                <p class="text-sm mt-4">Ga-64, Bepari Shopping Complex,<br>Middle Badda, Gulshan, Dhaka-1212</p>
             </div>
             <div>
-                <h4 class="text-xl font-bold mb-4">Email Us</h4>
-                <p class="text-indigo-400 font-medium">asad@tawfix.com</p>
-                <p class="text-slate-400">tawfix.info@gmail.com</p>
+                <h4 class="font-black text-slate-900 text-xl mb-4">Connect</h4>
+                <p>asad@tawfix.com</p>
+                <p>tawfix.info@gmail.com</p>
             </div>
             <div>
-                <h4 class="text-xl font-bold mb-4">Call Support</h4>
-                <p class="text-slate-200">+88 01638 - 114656</p>
-                <p class="text-slate-200">+88 01620 - 897941</p>
+                <h4 class="font-black text-slate-900 text-xl mb-4">Direct Lines</h4>
+                <p class="text-indigo-600 font-bold">+88 01638 - 114656</p>
+                <p class="text-indigo-600 font-bold">+88 01620 - 897941</p>
             </div>
         </div>
-        <p class="text-center mt-10 text-slate-500 text-sm">&copy; 2026 Tawfix BPO & IT Solution. All Rights Reserved.</p>
+        <div class="text-center mt-20 pt-10 border-t border-slate-100 text-slate-400 text-xs tracking-widest">
+            &copy; 2026 TAWFIX BPO & IT SOLUTION. ALL RIGHTS RESERVED.
+        </div>
     </footer>
 
+    <!-- SimpleLightbox JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.0/simple-lightbox.min.js"></script>
     <script>
         const grid = document.getElementById('portfolio-grid');
-        const totalImages = 8; // Showing only the top 8 as requested
-
-        for (let i = 1; i <= totalImages; i++) {
+        
+        // Looping through 1 to 8 to match your new filenames
+        for (let i = 1; i <= 8; i++) {
             const anchor = document.createElement('a');
-            anchor.href = `images/${i}.jpg`;
-            anchor.className = 'group card-zoom relative block bg-white rounded-3xl shadow-xl overflow-hidden';
+            anchor.href = `${i}.jpg`;
+            anchor.className = 'group card-zoom block relative bg-white rounded-[2rem] shadow-xl overflow-hidden';
             
             anchor.innerHTML = `
-                <img src="images/${i}.jpg" alt="Portfolio Image ${i}" class="w-full h-80 object-cover" loading="lazy">
-                <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                    <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform">
-                        <span class="text-rose-400 font-bold text-xs uppercase tracking-widest">Case Study</span>
-                        <h4 class="text-white text-xl font-bold">Project 0${i}</h4>
-                    </div>
+                <img src="${i}.jpg" alt="Restaurant Branding ${i}" class="w-full h-80 object-cover">
+                <div class="absolute inset-0 bg-indigo-900/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-white font-bold border-2 border-white px-6 py-2 rounded-full">Expand Design</span>
                 </div>
             `;
             grid.appendChild(anchor);
         }
 
-        var lightbox = new SimpleLightbox('.gallery a', {
+        // Initialize Lightbox
+        new SimpleLightbox('.gallery a', {
             overlayOpacity: 0.95,
-            showCounter: false,
-            focus: false
+            fadeSpeed: 200
         });
     </script>
 </body>
